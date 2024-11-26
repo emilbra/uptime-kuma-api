@@ -1,0 +1,13 @@
+name: Pull Request Validation and Labeling
+run-name: ${{ github.actor }} has opened or updated an Pull Request 🚀
+on:
+  pull_request: # by default, when a pr is opened or synchronized
+jobs:
+  # Let us add a label to the PR based on the branch name and files changed
+  labeler:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v5

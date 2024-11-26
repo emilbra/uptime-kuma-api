@@ -1053,6 +1053,7 @@ class UptimeKumaApi(object):
             footerText: str = None,
             showPoweredBy: bool = True,
             showCertificateExpiry: bool = False,
+            autoRefreshInterval: int = 300,
 
             icon: str = "/icon.svg",
             publicGroupList: list = None
@@ -1079,6 +1080,7 @@ class UptimeKumaApi(object):
             "showTags": showTags,
             "domainNameList": domainNameList,
             "googleAnalyticsId": googleAnalyticsId,
+            "autoRefreshInterval": autoRefreshInterval,
             "customCSS": customCSS,
             "footerText": footerText,
             "showPoweredBy": showPoweredBy,
@@ -1935,6 +1937,7 @@ class UptimeKumaApi(object):
                     'footerText': None,
                     'icon': '/icon.svg',
                     'googleAnalyticsId': '',
+                    'autoRefreshInterval': '300',
                     'id': 1,
                     'published': True,
                     'showPoweredBy': False,

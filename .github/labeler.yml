@@ -1,0 +1,25 @@
+# this contains the labeler configuration
+
+# for any PR where fix, feature or breaking is in the start of the branch name, add the corresponding labels
+
+fix:
+  - head-branch: ["^fix"]
+
+feature:
+  - head-branch: ["^feature"]
+
+breaking:
+  - head-branch: ["^breaking"]
+
+tests:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "tests/**"
+
+# Add 'documentation' label to any PR that has a path that contains '.md' or '.txt'
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+          - "**/*.txt"
