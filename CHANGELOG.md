@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/emilbra/uptime-kuma-api/compare/v0.1.0...v0.2.0) (2024-11-28)
+
+
+### Features
+
+* added support for jsonOperator value being passed for type json_query ([12d7b10](https://github.com/emilbra/uptime-kuma-api/commit/12d7b10905a9c013c6a373bff4d507daa4489444))
+
 ## 0.1.0 (2024-11-26)
 
 
