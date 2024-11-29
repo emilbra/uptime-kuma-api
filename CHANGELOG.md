@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/emilbra/uptime-kuma-api/compare/v0.2.0...v0.2.1) (2024-11-28)
+
+
+### Bug Fixes
+
+* property should be called jsonPathOperator, not jsonOperator ([5c22ae7](https://github.com/emilbra/uptime-kuma-api/commit/5c22ae719db8765e8cf108e648175a198b4cdbcc))
+
 ## [0.2.0](https://github.com/emilbra/uptime-kuma-api/compare/v0.1.0...v0.2.0) (2024-11-28)
 
 
